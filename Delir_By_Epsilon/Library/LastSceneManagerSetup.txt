@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/__FINAL GAME/Main Menu Scene.unity
+- path: Assets/Ana-Maria Mavroianu/Scenes/Alpha_Scenes/AM_2nd_Floor.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
