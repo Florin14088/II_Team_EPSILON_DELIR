@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/__FINAL GAME/Main Menu Scene.unity
+- path: Assets/Florin-Bogdan Glod/00__NEW/01_SCENES/NEW_FLORIN_LAB.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
