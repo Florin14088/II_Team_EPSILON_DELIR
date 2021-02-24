@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Ana-Maria Mavroianu/Scenes/Alpha_Scenes/AM_2nd_Floor.unity
+- path: Assets/Ana-Maria Mavroianu/Scenes/Beta_Scenes/AM_G_Floor.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
