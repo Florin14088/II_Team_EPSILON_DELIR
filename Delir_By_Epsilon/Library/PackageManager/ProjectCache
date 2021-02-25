@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637497163037589076
-    m_Hash: 3391423151
+      ticks: 637498162599712652
+    m_Hash: 3196689195
   m_LockFileStatus:
     m_FilePath: D:/Proiecte/Epsilon/II_Team_EPSILON_DELIR/Delir_By_Epsilon/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637497163037786964
-    m_Hash: 3559225790
+      ticks: 637498162599732671
+    m_Hash: 2604280049
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
