@@ -122,7 +122,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.003756215, y: 0.44314405, z: 0.016315185}
+  m_ConnectedAnchor: {x: -0.0037565196, y: 0.44314158, z: 0.016313903}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -224,8 +224,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219334446699159757}
-  m_LocalRotation: {x: 0.00000014901158, y: 0.000000029802317, z: 0.000000029802317,
-    w: 1}
+  m_LocalRotation: {x: 0.00000014901158, y: 0.000000029802317, z: 0.000000029802317, w: 1}
   m_LocalPosition: {x: 6.2527777e-13, y: 0.16344188, z: -4.656613e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -341,7 +340,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000032633457, y: 0.50820565, z: 0.000002264976}
+  m_ConnectedAnchor: {x: 0.0000012814965, y: 0.50819963, z: -0.0000006258486}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -669,7 +668,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000008530917, y: 0.32774815, z: -0.0000008940698}
+  m_ConnectedAnchor: {x: -0.0000003352762, y: 0.32774508, z: 0.000000029802326}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -839,7 +838,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.21505034, y: 0.25673708, z: -0.08635533}
+  m_ConnectedAnchor: {x: -0.21504982, y: 0.2567392, z: -0.08635381}
   serializedVersion: 2
   m_SwingAxis: {x: 1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -1653,7 +1652,7 @@ MonoBehaviour:
   - {fileID: 0}
   primaryBehaviour: 0
   secondaryBehaviour: 0
-  sleepBehaviour: 3
+  sleepBehaviour: 1
   zombieBehaviour: 1
   animator: {fileID: 7791077644458452608}
   searchMask:
@@ -1682,16 +1681,16 @@ MonoBehaviour:
   headOffset: {x: 0, y: 1.85, z: 0.15}
   reactionAngleTurn: 40
   soundReactRange: 20
-  soundReactionGizmos: 1
+  soundReactionGizmos: 0
   sightsFOV: 120
   attackFOV: 120
   sightsDistance: 15
   attackDistance: 2.5
-  idleHearRange: 6.5
-  veryCloseRange: 4
+  idleHearRange: 4
+  veryCloseRange: 2
   chaseTimeHide: 1
   walkSpeed: 1
-  runSpeed: 3
+  runSpeed: 4
   eatingStoppingDist: 3
   agentRotationSpeed: 5
   speedChangeSpeed: 6
@@ -1700,29 +1699,28 @@ MonoBehaviour:
   walkRootMotion: 1
   m_NPCSounds:
     ScreamSound: {fileID: 8300000, guid: 88b2cc3e81af7334aa25e5732c39d136, type: 3}
-    EatingSound: {fileID: 8300000, guid: 442f32712ac1bb24ebebdde638a5995b, type: 3}
-    AgonizeSound: {fileID: 8300000, guid: 8fd75b9827ffb1d46aa1fc4668bdb042, type: 3}
-    TakeDamageSound: {fileID: 8300000, guid: 1d7afd9aecc47c94785c6c327740dd93, type: 3}
-    DieSound: {fileID: 8300000, guid: ff5fe489497396f44883f5c7ea3ad53b, type: 3}
+    EatingSound: {fileID: 8300000, guid: e38dda94858601244ad85545a1e7dce6, type: 3}
+    AgonizeSound: {fileID: 8300000, guid: b493ec337ab01504690d7511af5a657b, type: 3}
+    TakeDamageSound: {fileID: 8300000, guid: b96612c834cc0744787589b3608032b1, type: 3}
+    DieSound: {fileID: 8300000, guid: a5f7caacc8c8af945bec1bd911c7f2ed, type: 3}
     IdleSounds:
-    - {fileID: 8300000, guid: 9f04046bf71b91f4fa4b39793840157b, type: 3}
-    - {fileID: 8300000, guid: 8d63482cbf56b2242836e586882e8218, type: 3}
-    - {fileID: 8300000, guid: 1f58348542078644b9354a167a8651d2, type: 3}
+    - {fileID: 8300000, guid: 9662fdb9358273d4ca2fee32ea0e1d5f, type: 3}
+    - {fileID: 8300000, guid: 81cc1c9b0d1c5984fae94633ba7d7617, type: 3}
+    - {fileID: 8300000, guid: 8fd75b9827ffb1d46aa1fc4668bdb042, type: 3}
     ReactionSounds:
-    - {fileID: 8300000, guid: fb08949f0f26c5549aee96864a74f957, type: 3}
-    - {fileID: 8300000, guid: 0c1661fc7952c664bbc97c532a191a68, type: 3}
-    - {fileID: 8300000, guid: 46ccaa9cd25e37c4794412fba69e124e, type: 3}
+    - {fileID: 8300000, guid: a2d06dc95da56d141b2d81cc1cae2d4e, type: 3}
+    - {fileID: 8300000, guid: 1d7afd9aecc47c94785c6c327740dd93, type: 3}
+    - {fileID: 8300000, guid: a5f7caacc8c8af945bec1bd911c7f2ed, type: 3}
+    - {fileID: 8300000, guid: ef5c4034a53a9954a83bc22c0ed08e43, type: 3}
+    - {fileID: 8300000, guid: b96612c834cc0744787589b3608032b1, type: 3}
+    - {fileID: 8300000, guid: ff5fe489497396f44883f5c7ea3ad53b, type: 3}
     AttackSounds:
-    - {fileID: 8300000, guid: a27674ebdc3e3354ba5324a908c5edf4, type: 3}
-    - {fileID: 8300000, guid: ac8dc17f2e870f74ab7d96ef0994358f, type: 3}
-    - {fileID: 8300000, guid: 82e8b1cad800ddd4ababfd220a7ccf45, type: 3}
-    - {fileID: 8300000, guid: ae84c3c6f25780b4fa357f3842cf8bf8, type: 3}
-    - {fileID: 8300000, guid: 4afc820c7d8f49e4095cf26b8a768f7f, type: 3}
-    - {fileID: 8300000, guid: fb7153e8db870b742aecf0db96c8f88a, type: 3}
-    - {fileID: 8300000, guid: 9e489066965942b4e8c57c3965dc5566, type: 3}
-    - {fileID: 8300000, guid: 935b57b668e883d4f80c11cc66689ea4, type: 3}
-    - {fileID: 8300000, guid: 8754aeecfa771bc4386da0f99a3b942a, type: 3}
-    - {fileID: 8300000, guid: d602a978c444aa14d93ac97f6db483b2, type: 3}
+    - {fileID: 8300000, guid: 3fb6381025060114588068d7f70518d9, type: 3}
+    - {fileID: 8300000, guid: 2443be28f10e33849be6b5c3b766e968, type: 3}
+    - {fileID: 8300000, guid: f24741ffef5b4ed4baf360602ad8d85a, type: 3}
+    - {fileID: 8300000, guid: 7eee04f1c03eb7044827ad9755755b06, type: 3}
+    - {fileID: 8300000, guid: fab94e4934788b749879f3ef5bf6aa66, type: 3}
+    - {fileID: 8300000, guid: a3087e1ffd3a4ca4893c07ffa5d50a1d, type: 3}
   m_NPCSoundsVolume:
     ScreamVolume: 1
     EatingVolume: 1
@@ -2065,7 +2063,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0033453791, y: 0.26933762, z: 0.005093403}
+  m_ConnectedAnchor: {x: 0.0033429028, y: 0.2693373, z: 0.0050983056}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2205,7 +2203,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000004915521, y: 0.32775423, z: -0.0000053495164}
+  m_ConnectedAnchor: {x: -0.000000204891, y: 0.32775536, z: 0.000000104308114}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -2407,7 +2405,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.10620882, y: -0.06760776, z: -0.013924612}
+  m_ConnectedAnchor: {x: -0.10620941, y: -0.067609586, z: -0.013917198}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -2547,7 +2545,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 0, y: 0, z: -1}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.21320045, y: 0.25074625, z: -0.066905715}
+  m_ConnectedAnchor: {x: 0.21319498, y: 0.2507489, z: -0.06690138}
   serializedVersion: 2
   m_SwingAxis: {x: -1, y: 0, z: 0}
   m_TwistLimitSpring:
@@ -2656,7 +2654,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.10620896, y: -0.067609906, z: -0.007085532}
+  m_ConnectedAnchor: {x: 0.10620926, y: -0.06760963, z: -0.007079536}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
@@ -3103,7 +3101,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: -1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000034421566, y: 0.50840646, z: 0.000005722036}
+  m_ConnectedAnchor: {x: 0.00000035762665, y: 0.5084067, z: -0.0000020563566}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: 1}
   m_TwistLimitSpring:
