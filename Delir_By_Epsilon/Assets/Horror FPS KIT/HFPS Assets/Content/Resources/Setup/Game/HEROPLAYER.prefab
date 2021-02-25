@@ -7477,8 +7477,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7189453345816795752}
-  m_LocalRotation: {x: 7.1054274e-15, y: 0.00000011920935, z: -0.0000000037252903,
-    w: 1}
+  m_LocalRotation: {x: 7.1054274e-15, y: 0.00000011920935, z: -0.0000000037252903, w: 1}
   m_LocalPosition: {x: -0.00019997839, y: 0.00092621474, z: -3.274706e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -8703,7 +8702,7 @@ MonoBehaviour:
   unzoomFOVSmooth: 5
   FOV: 40
   surfaceID: 1
-  surfaceDetails: {fileID: 11400000, guid: f0931411b65c541439ad55eb2d6d0a25, type: 2}
+  surfaceDetails: {fileID: 11400000, guid: 64a56a1abecfa7f4eb9cce7bec6d9033, type: 2}
   FleshTag: Flesh
   defaultSurfaceID: 1
   carryingBullets: 0
@@ -11114,8 +11113,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8194373160243462021}
-  m_LocalRotation: {x: 0.0000000749254, y: -0.0000000039790393, z: 0.000000089037016,
-    w: 1}
+  m_LocalRotation: {x: 0.0000000749254, y: -0.0000000039790393, z: 0.000000089037016, w: 1}
   m_LocalPosition: {x: -0.00000983268, y: -0.000027020722, z: -0.000007148385}
   m_LocalScale: {x: 0.0008, y: 0.00113, z: 0.0007999999}
   m_Children:
@@ -13493,8 +13491,7 @@ MonoBehaviour:
   baseKickback: {fileID: 8082562773487164737}
   weaponKickback: {fileID: 8082604779300066807}
   mouseLook: {fileID: 8193168895043938771}
-  waterParticles: {fileID: 198298757491500210, guid: d5312253c46cda34693fb69f5e0b199d,
-    type: 3}
+  waterParticles: {fileID: 198298757491500210, guid: d5312253c46cda34693fb69f5e0b199d, type: 3}
   walkSpeed: 3
   runSpeed: 7
   crouchSpeed: 2
@@ -13575,7 +13572,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1793
   surfaceID: 1
-  surfaceDetails: {fileID: 11400000, guid: f0931411b65c541439ad55eb2d6d0a25, type: 2}
+  surfaceDetails: {fileID: 0}
   defaultFootsteps:
   - {fileID: 8300000, guid: 44a8c10c5c2b549459b32a827796b20d, type: 3}
   - {fileID: 8300000, guid: c11d85a9d2a01004a9a67f86ef2376b8, type: 3}
@@ -15409,7 +15406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   surfaceID: 1
-  surfaceDetails: {fileID: 11400000, guid: f0931411b65c541439ad55eb2d6d0a25, type: 2}
+  surfaceDetails: {fileID: 11400000, guid: 64a56a1abecfa7f4eb9cce7bec6d9033, type: 2}
   defaultSurfaceID: 1
   HitLayer:
     serializedVersion: 2
@@ -15473,12 +15470,12 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8195649569065899454}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
+  m_Intensity: 0.2
   m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -15520,7 +15517,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}

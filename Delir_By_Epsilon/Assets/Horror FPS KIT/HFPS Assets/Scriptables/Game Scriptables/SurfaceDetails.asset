@@ -17,11 +17,9 @@ MonoBehaviour:
     ElementID: 0
     SurfaceTextures: []
     SurfaceFootsteps: []
-    SurfaceBulletmark: {fileID: 1177019025291314, guid: f4fc70f27b3a13946b0dd88f16b25e9e,
-      type: 3}
+    SurfaceBulletmark: {fileID: 1177019025291314, guid: f4fc70f27b3a13946b0dd88f16b25e9e, type: 3}
     BulletmarkImpact: []
-    SurfaceMeleemark: {fileID: 1177019025291314, guid: f4fc70f27b3a13946b0dd88f16b25e9e,
-      type: 3}
+    SurfaceMeleemark: {fileID: 1177019025291314, guid: f4fc70f27b3a13946b0dd88f16b25e9e, type: 3}
     MeleemarkImpact:
     - {fileID: 8300000, guid: 95750d45eea4c224ba7c1e747273fc16, type: 3}
     ImpactVolume: 1
@@ -36,11 +34,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: e55f5ea53b98f9f49981610ef1c358da, type: 3}
     - {fileID: 8300000, guid: 856fd62bddb61954fb7f7b9070673b8a, type: 3}
     - {fileID: 8300000, guid: 93f2df94bfa7b18468d28cd5f29b2b1e, type: 3}
-    SurfaceBulletmark: {fileID: 1926368004509638, guid: ff648d225fb12bd4cb233d4d6fb2041f,
-      type: 3}
+    SurfaceBulletmark: {fileID: 1926368004509638, guid: ff648d225fb12bd4cb233d4d6fb2041f, type: 3}
     BulletmarkImpact: []
-    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921,
-      type: 3}
+    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921, type: 3}
     MeleemarkImpact:
     - {fileID: 8300000, guid: 6bdfc4e766afd1f4dba6f202be34205b, type: 3}
     ImpactVolume: 1
@@ -55,11 +51,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: e55f5ea53b98f9f49981610ef1c358da, type: 3}
     - {fileID: 8300000, guid: 856fd62bddb61954fb7f7b9070673b8a, type: 3}
     - {fileID: 8300000, guid: 93f2df94bfa7b18468d28cd5f29b2b1e, type: 3}
-    SurfaceBulletmark: {fileID: 1568791140576598, guid: 591d07841ac0c5340b3b048e9f779d3c,
-      type: 3}
+    SurfaceBulletmark: {fileID: 1568791140576598, guid: 591d07841ac0c5340b3b048e9f779d3c, type: 3}
     BulletmarkImpact: []
-    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921,
-      type: 3}
+    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921, type: 3}
     MeleemarkImpact:
     - {fileID: 8300000, guid: 6bdfc4e766afd1f4dba6f202be34205b, type: 3}
     ImpactVolume: 1
@@ -76,11 +70,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 567645c21164de041afb02113b4e36a6, type: 3}
     - {fileID: 8300000, guid: 8b72e31c625fac344aa055b5b82f9ce9, type: 3}
     - {fileID: 8300000, guid: bc85a33c80ff6994fa43ddc783b85620, type: 3}
-    SurfaceBulletmark: {fileID: 1022249397687772, guid: 6f7e189a4292efe4d85842e9d0572cdf,
-      type: 3}
+    SurfaceBulletmark: {fileID: 1022249397687772, guid: 6f7e189a4292efe4d85842e9d0572cdf, type: 3}
     BulletmarkImpact: []
-    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921,
-      type: 3}
+    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921, type: 3}
     MeleemarkImpact:
     - {fileID: 8300000, guid: d10c47f948e793f4ebaba002280b65a2, type: 3}
     ImpactVolume: 1
@@ -96,11 +88,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 535cf6739daf32c42b297e9d67d392e4, type: 3}
     - {fileID: 8300000, guid: 6d1204483083d4d40ac3cfd66058d47b, type: 3}
     - {fileID: 8300000, guid: 0a9f2f064f006a14c83f0aef98797f53, type: 3}
-    SurfaceBulletmark: {fileID: 1604192455804454, guid: deced7cfbb62d084a810a9500c192017,
-      type: 3}
+    SurfaceBulletmark: {fileID: 1604192455804454, guid: deced7cfbb62d084a810a9500c192017, type: 3}
     BulletmarkImpact: []
-    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921,
-      type: 3}
+    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921, type: 3}
     MeleemarkImpact:
     - {fileID: 8300000, guid: 6bdfc4e766afd1f4dba6f202be34205b, type: 3}
     ImpactVolume: 1
@@ -116,11 +106,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 80d2f8f793e69e34288f99e9056f2ec2, type: 3}
     - {fileID: 8300000, guid: 60a6179a9d42f614291e7471864f8805, type: 3}
     - {fileID: 8300000, guid: aac7f3e923afb3d4099c5bcb79b63421, type: 3}
-    SurfaceBulletmark: {fileID: 1604642742537266, guid: 39a67207b35f0e94aaeae4fd865fa7ae,
-      type: 3}
+    SurfaceBulletmark: {fileID: 1604642742537266, guid: 39a67207b35f0e94aaeae4fd865fa7ae, type: 3}
     BulletmarkImpact: []
-    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921,
-      type: 3}
+    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921, type: 3}
     MeleemarkImpact:
     - {fileID: 8300000, guid: d10c47f948e793f4ebaba002280b65a2, type: 3}
     ImpactVolume: 1
@@ -138,11 +126,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: faa4c04355949e642a28580d02d1f679, type: 3}
     - {fileID: 8300000, guid: 66b4d3533c4c8694892ab5784459e5b3, type: 3}
     - {fileID: 8300000, guid: 29295ee0df3026f4cbf857e8e36d7e08, type: 3}
-    SurfaceBulletmark: {fileID: 1604642742537266, guid: 39a67207b35f0e94aaeae4fd865fa7ae,
-      type: 3}
+    SurfaceBulletmark: {fileID: 1604642742537266, guid: 39a67207b35f0e94aaeae4fd865fa7ae, type: 3}
     BulletmarkImpact: []
-    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921,
-      type: 3}
+    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921, type: 3}
     MeleemarkImpact:
     - {fileID: 8300000, guid: d10c47f948e793f4ebaba002280b65a2, type: 3}
     ImpactVolume: 1
@@ -157,11 +143,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: ec42a7475a2cd6b429e3cf1e3473390f, type: 3}
     - {fileID: 8300000, guid: ac78045cb61a5eb4e831861abc949d81, type: 3}
     - {fileID: 8300000, guid: 100e5c51fa6433c43bb8981c42e0cb5a, type: 3}
-    SurfaceBulletmark: {fileID: 1604642742537266, guid: 39a67207b35f0e94aaeae4fd865fa7ae,
-      type: 3}
+    SurfaceBulletmark: {fileID: 1604642742537266, guid: 39a67207b35f0e94aaeae4fd865fa7ae, type: 3}
     BulletmarkImpact: []
-    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921,
-      type: 3}
+    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921, type: 3}
     MeleemarkImpact:
     - {fileID: 8300000, guid: d10c47f948e793f4ebaba002280b65a2, type: 3}
     ImpactVolume: 1
@@ -171,11 +155,9 @@ MonoBehaviour:
     ElementID: 8
     SurfaceTextures: []
     SurfaceFootsteps: []
-    SurfaceBulletmark: {fileID: 1575968637957876, guid: 5b02683c4f693a2409eeecac54ca5cb5,
-      type: 3}
+    SurfaceBulletmark: {fileID: 1575968637957876, guid: 5b02683c4f693a2409eeecac54ca5cb5, type: 3}
     BulletmarkImpact: []
-    SurfaceMeleemark: {fileID: 1575968637957876, guid: 5b02683c4f693a2409eeecac54ca5cb5,
-      type: 3}
+    SurfaceMeleemark: {fileID: 1575968637957876, guid: 5b02683c4f693a2409eeecac54ca5cb5, type: 3}
     MeleemarkImpact: []
     ImpactVolume: 1
     allowFootsteps: 0
@@ -192,11 +174,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: aaa6edc0934d7bc4592086402b49b8f8, type: 3}
     - {fileID: 8300000, guid: 910b7360933f9ba409b1ea96f568a873, type: 3}
     - {fileID: 8300000, guid: ef3bafe311083e2498c58ec11995de9b, type: 3}
-    SurfaceBulletmark: {fileID: 1022249397687772, guid: 6f7e189a4292efe4d85842e9d0572cdf,
-      type: 3}
+    SurfaceBulletmark: {fileID: 1022249397687772, guid: 6f7e189a4292efe4d85842e9d0572cdf, type: 3}
     BulletmarkImpact: []
-    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921,
-      type: 3}
+    SurfaceMeleemark: {fileID: 2587893571550442796, guid: 48ffc468e5536ec428970e957a099921, type: 3}
     MeleemarkImpact:
     - {fileID: 8300000, guid: d10c47f948e793f4ebaba002280b65a2, type: 3}
     ImpactVolume: 1
