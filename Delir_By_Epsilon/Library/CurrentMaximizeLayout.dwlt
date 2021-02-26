@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 442}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 20285
+  controlID: 6668
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 477.6
+    y: 423
     width: 1162.2
     height: 306
   m_ViewDataDictionary: {fileID: 0}
@@ -83,7 +83,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 442}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 20264
+  controlID: 6669
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 20225
+  controlID: 6670
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: bebafdffecbafdff32bdfdff70bdfdfff4bdfdff12befdffe4befdff12c0fdffe8c0fdff1ac1fdff4ec1fdff7ac1fdff92c1fdffacc1fdff48c2fdff52c2fdff96c2fdffa4c2fdffb6c2fdfff0c2fdff22c8fdff8eedfdffa6edfdffc0edfdff5ceefdff66eefdffaaeefdffb8eefdffcaeefdff04effdff1a1dfeff521dfeff541dfeffc81dfeffd21dfeffd41dfeffd81dfeffdc1dfeff0027feff5668feff6e68feff8868feff2469feff2e69feff7269feff8069feff9269feffcc69feff08df0000ee850100b4860100c2a0010072a80100a2a6020076aa0200c2aa0200
+      m_ExpandedIDs: 32d7ffff2afbffff66510000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -332,9 +332,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -16.271915, y: 3.9462974, z: 20.193932}
+    m_Target: {x: -25.403402, y: -3.2272956, z: 18.837559}
     speed: 2
-    m_Value: {x: -16.271915, y: 3.9462974, z: 20.193932}
+    m_Value: {x: -25.403402, y: -3.2272956, z: 18.837559}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -381,13 +381,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.014726057, y: 0.9856447, z: -0.11432993, w: -0.12596218}
+    m_Target: {x: 0.13925807, y: -0.8191872, z: 0.22420022, w: 0.5099068}
     speed: 2
-    m_Value: {x: -0.014721271, y: 0.9853244, z: -0.11429277, w: -0.12592125}
+    m_Value: {x: 0.1392072, y: -0.81888795, z: 0.2241183, w: 0.5097205}
   m_Size:
-    m_Target: 1.96009
+    m_Target: 5.152104
     speed: 2
-    m_Value: 1.96009
+    m_Value: 5.152104
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -477,21 +477,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Resources/NPCs
+    - Assets/Florin-Bogdan Glod/00__NEW/03_PREFABS_NEW/NPC/PROP NPC (static)/Normal
+      Version
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Horror FPS KIT/HFPS Assets/Content/Prefabs/Resources/NPCs
+  - Assets/Florin-Bogdan Glod/00__NEW/03_PREFABS_NEW/NPC/PROP NPC (static)/Normal
+    Version
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\flori\Documents\GitHub\II_Delir\II_Team_EPSILON_DELIR\Delir_By_Epsilon
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 479}
-    m_SelectedIDs: 08360100
-    m_LastClickedID: 79368
-    m_ExpandedIDs: 0000000024f3000026f3000028f300002af300002cf300002ef3000030f3000032f3000036f3000038f300003af300003cf300003ef3000040f3000042f300008cf500009ef50000d2350100d4350100d6350100e4350100e8350100fc35010006360100
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: be2c0100
+    m_LastClickedID: 76990
+    m_ExpandedIDs: 000000005e80000060800000628000006480000066800000688000006a8000006e80000070800000728000007480000076800000788000007a8000007c8000007e80000080800000828000008480000086800000888000008a8000008c8000002e9c0000369c0000729c0000749c0000769c000006b30000aa2c0100ae2c0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -519,7 +521,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000024f3000026f3000028f300002af300002cf300002ef3000030f3000032f3000036f3000038f300003af300003cf300003ef3000040f3000042f300008cf500009ef50000d2350100d4350100d6350100e4350100e8350100fc35010006360100
+    m_ExpandedIDs: 000000005e80000060800000628000006480000066800000688000006a8000006e80000070800000728000007480000076800000788000007a8000007c8000007e80000080800000828000008480000086800000888000008a8000008c800000369c0000729c0000749c0000769c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -544,8 +546,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: cabcfdff
-    m_LastClickedInstanceID: -148278
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000725e0000e64f0000ba550000e2550000fa580000a67b01003e820100ba180100445f000046f7feff9ead010048e80400
     m_RenameOverlay:
