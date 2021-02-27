@@ -47,6 +47,7 @@ public class HFPS_GameManager : Singleton<HFPS_GameManager> {
     [Header("Game Panels")]
     public GameObject PauseGamePanel;
     public GameObject MainGamePanel;
+    public GameObject Pain_UI;
     public GameObject TabButtonPanel;
     public Selectable DeadFirstButton;
 
@@ -1027,6 +1028,7 @@ public class HFPS_GameManager : Singleton<HFPS_GameManager> {
         GetComponent<AdvancedMenuUI>().SelectFirstOption(DeadFirstButton, null);
 
         PauseGamePanel.SetActive(false);
+        Pain_UI.SetActive(false);
         MainGamePanel.SetActive(false);
 
         uiInteractive = false;

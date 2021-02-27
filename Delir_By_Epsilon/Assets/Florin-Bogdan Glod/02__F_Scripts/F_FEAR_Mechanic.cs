@@ -34,9 +34,11 @@ public class F_FEAR_Mechanic : MonoBehaviour
     public GameObject firstHearthBeat;
     public GameObject secondHearthBeat;
     [Space]
-    public GameObject ragdollPlayer;
-    public GameObject panelDead;
-    public GameObject panelAll;
+    public HealthManager __script_HP_Player;
+    //public GameObject ragdollPlayer;
+    //public GameObject panelDead;
+    //public GameObject panelAll;
+    private float lastKnownHP;
 
 
 
@@ -57,7 +59,9 @@ public class F_FEAR_Mechanic : MonoBehaviour
         difference_monitor_container_X = 0;//difference between monitor_rotX and container_rotX is 0 at the beginning
 
 
-        panelDead.SetActive(false);
+        //panelDead.SetActive(false);
+        __script_HP_Player = gameObject.GetComponent<HealthManager>();
+        lastKnownHP = __script_HP_Player.Health;
 
         firstHearthBeat.SetActive(false);
         secondHearthBeat.SetActive(false);
@@ -115,9 +119,11 @@ public class F_FEAR_Mechanic : MonoBehaviour
         }
 
 
+
         if(fear_meter != containerFear)//if current fear value is not the same with the last known fear value
         {
             containerFear = fear_meter;//change the last known value of fear_meter;
+            if (fear_meter < 100) __script_HP_Player.Health = __script_HP_Player.maximumHealth;
 
             needleFear_UI.transform.rotation = Quaternion.Euler(0 , 0 , 90 - (fear_meter * 1.8f));//1.8f = 180/100 (frica e de la 0 la 100, acul se invarte de la 90 la -90)
 
@@ -143,15 +149,17 @@ public class F_FEAR_Mechanic : MonoBehaviour
             {
                 firstHearthBeat.SetActive(false);
                 secondHearthBeat.SetActive(true);
+                __script_HP_Player.Health = __script_HP_Player.lowHealth;
             }
 
             if(fear_meter >= 100)
             {
-                Instantiate(ragdollPlayer, gameObject.transform.position, gameObject.transform.rotation);
+                //Instantiate(ragdollPlayer, gameObject.transform.position, gameObject.transform.rotation);
 
-                panelDead.SetActive(true);
-                panelAll.SetActive(false);
-                Destroy(gameObject);
+                //panelDead.SetActive(true);
+                //panelAll.SetActive(false);
+                //Destroy(gameObject);
+                __script_HP_Player.InstantDeath();
             }
 
         }

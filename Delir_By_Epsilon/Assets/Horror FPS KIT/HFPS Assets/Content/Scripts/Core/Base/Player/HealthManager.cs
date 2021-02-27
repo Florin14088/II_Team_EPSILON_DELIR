@@ -189,6 +189,9 @@ public class HealthManager : MonoBehaviour {
                 bloodEffect.bloodAmount = pain;
             }
 
+
+            GameObject.FindGameObjectWithTag("Player").GetComponent<F_FEAR_Mechanic>().fear_meter += damage * Random.Range(1, 2.1f);
+
             StopAllCoroutines();
             StartCoroutine(PainFade(2));
         }
