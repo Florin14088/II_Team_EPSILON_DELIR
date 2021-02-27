@@ -3,6 +3,10 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
   isSubScene: 0
+- path: Assets/Ana-Maria Mavroianu/Scenes/Alpha_Scenes/AM_G_Floor Playable.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
 - path: Assets/Ana-Maria Mavroianu/Scenes/Alpha_Scenes/AM_2nd_Floor.unity
   isLoaded: 0
   isActive: 0
