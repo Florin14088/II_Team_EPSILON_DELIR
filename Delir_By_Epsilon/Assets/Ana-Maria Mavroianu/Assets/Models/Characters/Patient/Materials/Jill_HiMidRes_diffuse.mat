@@ -8,14 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Jill_HiMidRes_diffuse
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: bf1a6108360ec904a80a71e6402bf99a, type: 3}
   m_ShaderKeywords: _NORMALMAP _RECEIVE_SHADOWS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2001
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -53,11 +52,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_2A5385C3: 2.02
+    - Vector1_2A5385C3: 4
     - Vector1_7580970: 0.398
     - Vector1_C42F0BAF: 2
     - Vector1_D6142BDE: 30
-    - Vector1_DC7DBB65: 0
+    - Vector1_DC7DBB65: 1
     - Vector1_EAF9450A: 0.01
     - _AlphaClip: 0
     - _Blend: 0

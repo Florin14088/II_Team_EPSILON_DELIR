@@ -649,51 +649,51 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -3386242721617919341}
-    m_Position: {x: 460, y: -300, z: 0}
+    m_Position: {x: 670, y: -300, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1965443554917068961}
-    m_Position: {x: 250, y: -470, z: 0}
+    m_Position: {x: 250, y: -660, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5217975358934903768}
-    m_Position: {x: -10, y: -160, z: 0}
+    m_Position: {x: -240, y: -150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1902603804355241287}
-    m_Position: {x: 490, y: -160, z: 0}
+    m_Position: {x: 700, y: -160, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -9170815881559328767}
-    m_Position: {x: 110, y: 70, z: 0}
+    m_Position: {x: -60, y: 280, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -689837696593882618}
-    m_Position: {x: 110, y: -10, z: 0}
+    m_Position: {x: -60, y: 200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8047397491237940917}
-    m_Position: {x: 370, y: -10, z: 0}
+    m_Position: {x: 200, y: 200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5259775111916590531}
-    m_Position: {x: 370, y: 70, z: 0}
+    m_Position: {x: 200, y: 280, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4594616207733203111}
-    m_Position: {x: 240, y: -100, z: 0}
+    m_Position: {x: 70, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1369071601688426252}
-    m_Position: {x: -10, y: -400, z: 0}
+    m_Position: {x: -240, y: -390, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3579846497412196912}
-    m_Position: {x: 490, y: -400, z: 0}
+    m_Position: {x: 700, y: -400, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3978573960009318002}
-    m_Position: {x: 240, y: -200, z: 0}
+    m_Position: {x: 300, y: -120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3724834363921232041}
-    m_Position: {x: 20, y: -300, z: 0}
+    m_Position: {x: -210, y: -290, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 260, y: 230, z: 0}
-  m_EntryPosition: {x: 260, y: 150, z: 0}
-  m_ExitPosition: {x: 260, y: 190, z: 0}
+  m_AnyStatePosition: {x: 90, y: 440, z: 0}
+  m_EntryPosition: {x: 90, y: 360, z: 0}
+  m_ExitPosition: {x: 90, y: 400, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 4594616207733203111}
 --- !u!1107 &-6323429002771382538
@@ -1653,7 +1653,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Scream
-  m_Speed: 1
+  m_Speed: 3
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 6885745217466952428}
@@ -1669,7 +1669,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 0bda60fbfa764ab4bb8957c727bcecab, type: 2}
+  m_Motion: {fileID: -203655887218126122, guid: 8e8faad05db3a084c9ac0a4877fff9a4, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -2696,7 +2696,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.5
   m_TransitionOffset: 0
   m_ExitTime: 0.91071427
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -3350,7 +3350,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.5
   m_TransitionOffset: 0
   m_ExitTime: 0.91071427
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 1

@@ -83,7 +83,7 @@ public class ZombieBehaviourAI : MonoBehaviour, INPCReaction, IOnAnimatorState, 
 
 
     private AudioSource audioSource;
-    private NavMeshAgent agent;
+    [HideInInspector] public NavMeshAgent agent;
     private NPCHealth health;
 
     [SerializeField] private WaypointGroup waypoints;
@@ -100,7 +100,7 @@ public class ZombieBehaviourAI : MonoBehaviour, INPCReaction, IOnAnimatorState, 
 
     #region Public Variables
     [Header("Behaviour Main")]
-    [ReadOnly, SerializeField] private PrimaryBehaviour primaryBehaviour = PrimaryBehaviour.Sleep;
+    [ReadOnly, SerializeField] public PrimaryBehaviour primaryBehaviour = PrimaryBehaviour.Sleep;//made public from private
     [ReadOnly, SerializeField] private SecondaryBehaviour secondaryBehaviour = SecondaryBehaviour.Normal;
 
     [Space(5)]
