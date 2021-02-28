@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Flesh
   - Water
+  - Wood
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -26,7 +28,7 @@ TagManager:
   - CamWeapon
   - Ladder
   - CamSecondExamination
-  - 
+  - PostProcess Global
   - 
   - 
   - 
