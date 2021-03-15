@@ -1,13 +1,5 @@
 sceneSetups:
-- path: Assets/Florin-Bogdan Glod/00__NEW/01_SCENES_NEW/NEW_FLORIN_LAB.unity
+- path: Assets/Ana-Maria Mavroianu/Scenes/Beta_Scenes/AM_G_Floor _haunted.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/Ana-Maria Mavroianu/Scenes/Alpha_Scenes/AM_G_Floor Playable.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Ana-Maria Mavroianu/Scenes/Alpha_Scenes/AM_2nd_Floor.unity
-  isLoaded: 0
-  isActive: 0
   isSubScene: 0

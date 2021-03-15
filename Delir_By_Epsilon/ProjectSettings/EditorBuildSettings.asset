@@ -11,5 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Horror FPS KIT/HFPS Assets/Content/Scenes/SceneLoader.unity
     guid: e92d1d4c15fc07a42b93b5e226dab4fd
+  - enabled: 1
+    path: Assets/Ana-Maria Mavroianu/Scenes/Beta_Scenes/AM_G_Floor.unity
+    guid: 9e698cf3f53dd9c4b9142cbb015a6932
+  - enabled: 1
+    path: Assets/Ana-Maria Mavroianu/Scenes/Beta_Scenes/AM_G_Floor _haunted.unity
+    guid: f139f8de80689fd44a21ab177c0adf10
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f4687e337c6012f40a487fd66e19f2da, type: 2}

@@ -90,7 +90,7 @@ public class SceneLoader : MonoBehaviour
             sceneDescription.text = "";
         }
 
-        StartCoroutine(LoadScene(scene, timeBeforeLoad));
+        StartCoroutine(LoadScene("AM_G_Floor", timeBeforeLoad));
     }
 
     IEnumerator LoadScene(string scene, int timeWait)

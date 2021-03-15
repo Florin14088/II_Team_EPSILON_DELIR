@@ -19,9 +19,9 @@ public class ScriptManager : Singleton<ScriptManager> {
     public Camera MainCamera;
     public Camera ArmsCamera;
 
-    [Header("Post-Processing")]
-    public PostProcessVolume MainPostProcess;
-    public PostProcessVolume ArmsPostProcess;
+    //[Header("Post-Processing")]
+    //public PostProcessVolume MainPostProcess;
+    //public PostProcessVolume ArmsPostProcess;
 
     [Header("Other")]
     public AudioSource AmbienceSource;

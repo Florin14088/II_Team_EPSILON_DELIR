@@ -74,10 +74,7 @@ namespace ThunderWire.Game.Options
             {
                 ScriptManager scriptManager;
 
-                if ((scriptManager = ScriptManager.Instance) != null)
-                {
-                    postProcessing = scriptManager.MainPostProcess;
-                }
+                
             }
 
             crossPlatformInput = CrossPlatformInput.Instance;
