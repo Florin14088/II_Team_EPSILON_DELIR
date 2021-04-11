@@ -9,6 +9,7 @@ public class F_AI_Addition : MonoBehaviour
     [ReadOnly] public bool b_Action_Idle = false;
     [ReadOnly] public bool b_Action_Run_Away = false;
     [ReadOnly] public bool b_Action_Attack = false;
+    public bool b_STATIC_PAIN = false;
     [Space]
     //[MinMax(1.5f, 4f)] public Vector2 distance_too_close; //if player gets at this distance and actionTaken is 0, the NPC will take another random action
     public float rangeRunAway = 20;
@@ -32,13 +33,25 @@ public class F_AI_Addition : MonoBehaviour
         __script_AI = gameObject.GetComponent<ZombieBehaviourAI>();
         player = GameObject.FindGameObjectWithTag("Player");
 
+        InvokeRepeating("ResetStatic", 1, 1);
     }//Start
 
 
 
     void Update()
     {
-        if(__script_AI.primaryBehaviour == ZombieBehaviourAI.PrimaryBehaviour.Sleep)
+        if (b_STATIC_PAIN)
+        {
+            __script_AI.enabled = false;
+            gameObject.GetComponent<Animator>().SetInteger("Pain", 1);
+            return;
+        }
+        else
+        {
+            gameObject.GetComponent<Animator>().SetInteger("Pain", 0);
+        }
+
+        if (__script_AI.primaryBehaviour == ZombieBehaviourAI.PrimaryBehaviour.Sleep)
         {
             return; //NPC is sleeping, check back later
         }
@@ -133,6 +146,12 @@ public class F_AI_Addition : MonoBehaviour
     {
         yield return new WaitForSeconds(Random.Range(5f, 5.5f)); 
         b_firstInit = false;
+    }
+
+
+    void ResetStatic()
+    {
+        b_STATIC_PAIN = false;
     }
 
 

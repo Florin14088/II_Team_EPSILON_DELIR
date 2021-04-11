@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9de9e24370cd9041b348027f19b6140, type: 3}
+  m_Name: DELIR_BETA_OBJECTIVES LVL_2
+  m_EditorClassIdentifier: 
+  Objectives:
+  - shortName: GEAR UP
+    eventID: 
+    objectiveText: Equip the pistol, axe and ammo from the table
+    completeCount: 0
+    objectiveID: 0
+  - shortName: DELIR
+    eventID: 
+    objectiveText: Check the two corpses downstairs
+    completeCount: 0
+    objectiveID: 1
+  - shortName: Natural selection
+    eventID: 
+    objectiveText: The dead is alive and the alive is dead
+    completeCount: 0
+    objectiveID: 2
+  - shortName: Double-check
+    eventID: 
+    objectiveText: Make sure the fallen men are really dead
+    completeCount: 0
+    objectiveID: 3
+  - shortName: Exploration
+    eventID: 
+    objectiveText: Find the "EXIT" upstairs and enter the door
+    completeCount: 0
+    objectiveID: 4
+  - shortName: Security Check
+    eventID: 
+    objectiveText: Find the Control Room and get the flashlight
+    completeCount: 0
+    objectiveID: 5
+  - shortName: Top Floor
+    eventID: 
+    objectiveText: Find the "EXIT" door and go to Second Floor
+    completeCount: 0
+    objectiveID: 6
+  - shortName: Healing
+    eventID: 
+    objectiveText: Find here 2 blood bags
+    completeCount: 0
+    objectiveID: 7
+  - shortName: A fresh start
+    eventID: 
+    objectiveText: Find on this floor the Electric Panel
+    completeCount: 0
+    objectiveID: 8
+  - shortName: The Spark
+    eventID: 
+    objectiveText: Interact with the Panel and turn on Power
+    completeCount: 0
+    objectiveID: 9
+  - shortName: The End
+    eventID: 
+    objectiveText: Help is on the way, I am done for now.
+    completeCount: 0
+    objectiveID: 10
